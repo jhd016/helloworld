@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  Hello World
+//  Hello World.
 //
 //  Created by Jonathan Drouin on 11/18/17.
 //  Copyright © 2017 Jonathan Drouin. All rights reserved.
