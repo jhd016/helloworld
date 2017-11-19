@@ -15,10 +15,15 @@ class ViewController: UIViewController {
     
     var tapCount = 0
     
+    @IBOutlet weak var textOne: UITextField!
+    @IBOutlet weak var textTwo: UITextField!
+    
     @IBAction func buttonTap(_ sender: Any) {
         
-        theLabel.text = "Hello World!"
-        print("Button tapped")
+        print(textOne.text!)
+        print(textTwo.text!)
+        
+        theLabel.text = "Answer is.... \(Double(textOne.text!)! + Double(textTwo.text!)!)"
         
     }
     
